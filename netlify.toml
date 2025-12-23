@@ -1,0 +1,11 @@
+[build]
+  command = "pnpm -C apps/web build"
+  publish = "apps/web/dist"
+
+[build.environment]
+  VITE_API_URL = "https://your-render-api.onrender.com"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

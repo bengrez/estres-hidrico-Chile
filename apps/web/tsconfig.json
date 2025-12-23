@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "types": ["vitest/globals", "vite/client"],
+    "composite": true,
+    "baseUrl": "."
+  },
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    { "path": "../../packages/shared/tsconfig.json" }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "layout": {
+    "subtitle": "Panel educativo sobre estrés hídrico en Chile",
+    "nav": {
+      "home": "Inicio",
+      "explore": "Explorar",
+      "learn": "Aprende"
+    },
+    "footer": "Recurso educativo abierto. Los datos son ilustrativos."
+  },
+  "home": {
+    "title": "Comprende el estrés hídrico en Chile",
+    "intro": "Este panel bilingüe ayuda a estudiantes a explorar cómo cambian la disponibilidad y la demanda de agua en Chile. Usa el mapa para comparar regiones e indicadores en el tiempo.",
+    "cta": "Explorar mapa"
+  },
+  "explore": {
+    "title": "Explora el mapa",
+    "description": "Selecciona región, cuenca, año e índice para visualizar tendencias. Usa el mapa y los gráficos para debatir cómo varía el estrés hídrico.",
+    "filters": {
+      "region": "Región",
+      "basin": "Cuenca",
+      "year": "Año",
+      "index": "Índice",
+      "level": "Nivel de profundidad",
+      "level_basic": "Básico",
+      "level_intermediate": "Intermedio",
+      "level_advanced": "Avanzado"
+    },
+    "map": {
+      "title": "Coropleta por región",
+      "legend": "Valores altos indican mayor estrés"
+    },
+    "chart": {
+      "timeseries": "Serie temporal",
+      "bar": "Comparación regional",
+      "empty": "No hay datos para esta selección"
+    },
+    "summary": {
+      "title": "Resumen rápido"
+    },
+    "loading": "Cargando datos...",
+    "error": "No pudimos cargar los datos. Intenta nuevamente."
+  },
+  "learn": {
+    "title": "Aprende los conceptos",
+    "intro": "Descubre ideas clave sobre el estrés hídrico, el balance de agua y cómo los indicadores ayudan a entender los riesgos.",
+    "concepts": {
+      "stress": {
+        "title": "Estrés hídrico",
+        "text": "Ocurre cuando la demanda se acerca o supera la oferta disponible."
+      },
+      "balance": {
+        "title": "Disponibilidad vs demanda",
+        "text": "El balance hídrico compara entradas (lluvia, nieve) con salidas (usos y pérdidas)."
+      },
+      "drought": {
+        "title": "Sequía",
+        "text": "Periodo de precipitaciones bajo lo normal que puede reducir la oferta."
+      },
+      "basin": {
+        "title": "Cuenca",
+        "text": "Área donde toda el agua drena hacia el mismo río o lago."
+      }
+    },
+    "glossary": {
+      "title": "Glosario",
+      "items": {
+        "index": "Índice",
+        "region": "Región",
+        "basin": "Cuenca",
+        "trend": "Tendencia"
+      },
+      "definitions": {
+        "index": "Indicador numérico que resume información sobre estrés hídrico o sequía.",
+        "region": "Área administrativa usada en el panel para agrupar datos.",
+        "basin": "Unidad hidrológica donde el agua drena hacia un mismo punto.",
+        "trend": "Dirección del cambio en el tiempo (creciente, estable o decreciente)."
+      }
+    },
+    "quiz": {
+      "title": "Quiz rápido",
+      "prompt": "¿Qué factor aumenta el estrés hídrico?",
+      "option1": "Mayor demanda con oferta estable",
+      "option2": "Menor demanda y mayor oferta",
+      "feedback_correct": "¡Correcto! Más demanda con oferta limitada eleva el estrés.",
+      "feedback_wrong": "Aún no. Piensa en cómo interactúan la oferta y la demanda."
+    }
+  },
+  "indices": {
+    "WATER_STRESS": {
+      "label": "Índice de estrés hídrico",
+      "description": "Estima la presión sobre los recursos hídricos frente a la disponibilidad."
+    },
+    "DROUGHT_RISK": {
+      "label": "Riesgo de sequía",
+      "description": "Probabilidad de condiciones de sequía que afecten la oferta de agua."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "name": "regions_mock",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Región A"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-72.0, -32.0],
+          [-70.5, -32.0],
+          [-70.5, -33.5],
+          [-72.0, -33.5],
+          [-72.0, -32.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Región B"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-72.5, -34.0],
+          [-71.0, -34.0],
+          [-71.0, -35.5],
+          [-72.5, -35.5],
+          [-72.5, -34.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Región C"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-73.0, -36.0],
+          [-71.5, -36.0],
+          [-71.5, -37.5],
+          [-73.0, -37.5],
+          [-73.0, -36.0]
+        ]]
+      }
+    }
+  ]
+}

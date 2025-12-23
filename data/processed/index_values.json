@@ -1,0 +1,31 @@
+{
+  "years": [2018, 2019, 2020],
+  "indices": ["WATER_STRESS", "DROUGHT_RISK"],
+  "regions": ["Región A", "Región B", "Región C"],
+  "basins": ["Cuenca 1", "Cuenca 2"],
+  "values": [
+    {"year": 2018, "index": "WATER_STRESS", "region": "Región A", "basin": "Cuenca 1", "value": 0.62},
+    {"year": 2019, "index": "WATER_STRESS", "region": "Región A", "basin": "Cuenca 1", "value": 0.65},
+    {"year": 2020, "index": "WATER_STRESS", "region": "Región A", "basin": "Cuenca 1", "value": 0.7},
+
+    {"year": 2018, "index": "WATER_STRESS", "region": "Región B", "basin": "Cuenca 1", "value": 0.48},
+    {"year": 2019, "index": "WATER_STRESS", "region": "Región B", "basin": "Cuenca 1", "value": 0.52},
+    {"year": 2020, "index": "WATER_STRESS", "region": "Región B", "basin": "Cuenca 2", "value": 0.6},
+
+    {"year": 2018, "index": "WATER_STRESS", "region": "Región C", "basin": "Cuenca 2", "value": 0.35},
+    {"year": 2019, "index": "WATER_STRESS", "region": "Región C", "basin": "Cuenca 2", "value": 0.4},
+    {"year": 2020, "index": "WATER_STRESS", "region": "Región C", "basin": "Cuenca 2", "value": 0.45},
+
+    {"year": 2018, "index": "DROUGHT_RISK", "region": "Región A", "basin": "Cuenca 1", "value": 0.3},
+    {"year": 2019, "index": "DROUGHT_RISK", "region": "Región A", "basin": "Cuenca 1", "value": 0.33},
+    {"year": 2020, "index": "DROUGHT_RISK", "region": "Región A", "basin": "Cuenca 1", "value": 0.38},
+
+    {"year": 2018, "index": "DROUGHT_RISK", "region": "Región B", "basin": "Cuenca 1", "value": 0.42},
+    {"year": 2019, "index": "DROUGHT_RISK", "region": "Región B", "basin": "Cuenca 1", "value": 0.45},
+    {"year": 2020, "index": "DROUGHT_RISK", "region": "Región B", "basin": "Cuenca 2", "value": 0.5},
+
+    {"year": 2018, "index": "DROUGHT_RISK", "region": "Región C", "basin": "Cuenca 2", "value": 0.28},
+    {"year": 2019, "index": "DROUGHT_RISK", "region": "Región C", "basin": "Cuenca 2", "value": 0.32},
+    {"year": 2020, "index": "DROUGHT_RISK", "region": "Región C", "basin": "Cuenca 2", "value": 0.36}
+  ]
+}

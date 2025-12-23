@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8
+
+      - name: Install JS dependencies
+        run: pnpm install
+
+      - name: Lint web
+        run: pnpm lint
+
+      - name: Test web
+        run: pnpm test:web -- --runInBand
+
+      - name: Build web
+        run: pnpm build
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install API deps
+        run: pip install -r apps/api/requirements.txt
+
+      - name: Test API
+        run: cd apps/api && pytest

@@ -1,0 +1,99 @@
+{
+  "layout": {
+    "subtitle": "Educational dashboard on water stress in Chile",
+    "nav": {
+      "home": "Home",
+      "explore": "Explore",
+      "learn": "Learn"
+    },
+    "footer": "Open educational resource. Data shown is illustrative."
+  },
+  "home": {
+    "title": "Understand water stress in Chile",
+    "intro": "This bilingual dashboard helps students explore how water availability and demand change across Chile. Use the map to compare regions and indicators over time.",
+    "cta": "Explore map"
+  },
+  "explore": {
+    "title": "Explore the map",
+    "description": "Select a region, basin, year, and index to visualize trends. Use the map and charts to discuss how water stress varies.",
+    "filters": {
+      "region": "Region",
+      "basin": "Basin",
+      "year": "Year",
+      "index": "Index",
+      "level": "Learning depth",
+      "level_basic": "Basic",
+      "level_intermediate": "Intermediate",
+      "level_advanced": "Advanced"
+    },
+    "map": {
+      "title": "Choropleth by region",
+      "legend": "Higher values mean more stress"
+    },
+    "chart": {
+      "timeseries": "Time series",
+      "bar": "Regional comparison",
+      "empty": "No data available for this selection"
+    },
+    "summary": {
+      "title": "Quick summary"
+    },
+    "loading": "Loading data...",
+    "error": "We could not load the data. Please try again."
+  },
+  "learn": {
+    "title": "Learn the concepts",
+    "intro": "Discover key ideas about water stress, water balance, and how indicators help us understand risks.",
+    "concepts": {
+      "stress": {
+        "title": "Water stress",
+        "text": "Happens when demand approaches or exceeds the available supply."
+      },
+      "balance": {
+        "title": "Availability vs demand",
+        "text": "Water balance compares inputs (rain, snow) with outputs (uses and losses)."
+      },
+      "drought": {
+        "title": "Drought",
+        "text": "A period of below-average precipitation that can reduce supply."
+      },
+      "basin": {
+        "title": "River basin",
+        "text": "An area where all water drains to the same river or lake."
+      }
+    },
+    "glossary": {
+      "title": "Glossary",
+      "items": {
+        "index": "Index",
+        "region": "Region",
+        "basin": "Basin",
+        "trend": "Trend"
+      },
+      "definitions": {
+        "index": "A numeric indicator that summarizes information about water stress or drought.",
+        "region": "Administrative area used in the dashboard to group data.",
+        "basin": "Hydrological unit where water drains to the same outlet.",
+        "trend": "Direction of change over time (increasing, stable, decreasing)."
+      }
+    },
+    "quiz": {
+      "title": "Quick quiz",
+      "prompt": "Which factor increases water stress?",
+      "option1": "Rising demand with stable supply",
+      "option2": "Lower demand and higher supply",
+      "feedback_correct": "Correct! More demand with limited supply raises stress.",
+      "feedback_wrong": "Not quite. Think about how supply and demand interact."
+    }
+  },
+  "indices": {
+    "WATER_STRESS": {
+      "label": "Water Stress Index",
+      "description": "Estimates pressure on water resources compared to availability."
+    },
+    "DROUGHT_RISK": {
+      "label": "Drought Risk",
+      "description": "Likelihood of drought conditions affecting water supply."
+    }
+  }
+}
