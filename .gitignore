@@ -1,0 +1,14 @@
+node_modules
+apps/web/dist
+apps/web/.vite
+apps/web/coverage
+.pnp.cjs
+.pnp.loader.mjs
+.pnpm-store
+.env
+apps/web/.env
+apps/api/.env
+__pycache__
+*.pyc
+.pytest_cache
+.venv
